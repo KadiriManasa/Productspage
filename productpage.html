@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <h1>Grociers Store</h1>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        body{
+            font-size: larger;
+            color: rgb(243, 243, 245);
+            background-color: #111111;
+    
+        }
+        .card-container{
+            display: flex;
+            justify-content: space-around;
+            gap: 2.5px;
+        }
+        
+        .card{
+            width: 300px;
+            padding: 10px 20px;
+            background: hsl(0, 0%, 13%);
+            border-radius: 10px;
+            text-align: center;
+            
+
+        }
+        table{
+            margin-bottom: 10px;
+        }
+
+        
+        h3{
+            text-align: center;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            font-size: large;
+            background-color: #888787;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 10px;
+
+        }
+        .button .hover{
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            border: white;
+        }
+        .highlight{
+            
+            text-align: left;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Fruits</h2>
+    <div class="card-container">
+        <div class="card">
+        <h3>Banana</h3>
+        <img src="./Bananaimg.jpeg" alt="Fruit image" width="100px">
+        <p class="price:"><label for="Price"><strong><em>price:</em></strong></label>$xxxx</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fats</td>
+                    <td>2.6g</td>
+                </tr>
+                <tr>
+                    <td>Minerals</td>
+                    <td>Potassium</td>
+                </tr>
+                <tr>
+                    <td>water content</td>
+                    <td>75%</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Buy Now</button>
+        <button>Add to Cart</button>
+        </div>
+        <div class="card"><h3>Apple</h3>
+        <img src="Appleimg.jpeg" alt="Fruit image" width="100px">
+        <p class="price:"><label for="price" ><strong><em>price</em></strong></label>$xxxx</p>
+        <div class="highlight">
+        <label for="Quantity"><b>Quantity</b></label>
+        <select name="Quantity" id="">
+        <option value="1Kg">250g</option>
+        <option value="1Kg">500g</option>
+        <option value="1Kg">1kg</option>
+        </select>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>protiens</td>
+                    <td>1.1g</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>12g</td>
+                </tr>
+                <tr>
+                    <td>Vitamins</td>
+                    <td>Vitamin C</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Buy Now</button>
+        <button>Add to Cart</button>
+        </div>
+        <div class="card"><h3>Kiwi</h3>
+        <img src="Kiwiimg.jpeg" alt="Fruit image" width="80px">
+        <p class="price:"><label for="price" ><strong><em>price</em></strong></label>$xxxx</p>
+        <div class="highlight">
+        <label for="Quantity"><b>Quantity</b></label>
+        <select name="Quantity" id="">
+        <option value="1Kg">250g</option>
+        <option value="1Kg">500g</option>
+        <option value="1Kg">1kg</option>
+        </select>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Features</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>protiens</td>
+                    <td>1.1g</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>12g</td>
+                </tr>
+                <tr>
+                    <td>Vitamins</td>
+                    <td>Vitamin C</td>
+                </tr>
+            </tbody>
+        </table>
+        <button>Buy Now</button>
+        <button>Add to Cart</button>
+        </div>
+    
+    </div>
+</body>
+</html>
